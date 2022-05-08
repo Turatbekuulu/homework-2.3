@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		048F35D928280B21007A5920 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F35D828280B21007A5920 /* main.swift */; };
+		048F35E028280B6F007A5920 /* Technics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F35DF28280B6F007A5920 /* Technics.swift */; };
+		048F35E228280CC8007A5920 /* Weapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F35E128280CC8007A5920 /* Weapons.swift */; };
+		048F35E4282832B3007A5920 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F35E3282832B3007A5920 /* Cars.swift */; };
+		048F35E62828344B007A5920 /* Gadgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F35E52828344B007A5920 /* Gadgets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		048F35D528280B21007A5920 /* homework 2.3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "homework 2.3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F35D828280B21007A5920 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		048F35DF28280B6F007A5920 /* Technics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technics.swift; sourceTree = "<group>"; };
+		048F35E128280CC8007A5920 /* Weapons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapons.swift; sourceTree = "<group>"; };
+		048F35E3282832B3007A5920 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		048F35E52828344B007A5920 /* Gadgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gadgets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				048F35D828280B21007A5920 /* main.swift */,
+				048F35DF28280B6F007A5920 /* Technics.swift */,
+				048F35E128280CC8007A5920 /* Weapons.swift */,
+				048F35E3282832B3007A5920 /* Cars.swift */,
+				048F35E52828344B007A5920 /* Gadgets.swift */,
 			);
 			path = "homework 2.3";
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048F35E228280CC8007A5920 /* Weapons.swift in Sources */,
+				048F35E028280B6F007A5920 /* Technics.swift in Sources */,
+				048F35E4282832B3007A5920 /* Cars.swift in Sources */,
+				048F35E62828344B007A5920 /* Gadgets.swift in Sources */,
 				048F35D928280B21007A5920 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

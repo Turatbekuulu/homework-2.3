@@ -1,11 +1,11 @@
-//
-//  main.swift
-//  homework 2.3
-//
-//  Created by Mac on 8/5/22.
-//
-
-import Foundation
-
-print("Hello, World!")
-
+var weapon1 = Weapons(theName: "M-16")
+weapon1.showPlusesOfTechnics(theName: "M-16")
+weapon1.showMinusesOfTechnics(theName: "M-16", theCondition: "Bad", thePrice: "5500$")
+print("----------------------------------")
+var car1 = Cars(theName: "BMW")
+car1.showPlusesOfTechnics(theName: "BMW")
+car1.showMinusesOfTechnics(theName: "BMW", theCondition: "Almost bad", thePrice: "Expensive")
+print("----------------------------------")
+var phone1 = Gadgets(theName: "iPhone")
+phone1.showPlusesOfTechnics(theName: "iPhone")
+phone1.showMinusesOfTechnics(theName: "iPhone", theCondition: "Bad", thePrice: "Expensive")
